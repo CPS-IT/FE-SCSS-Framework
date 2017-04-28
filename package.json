@@ -19,5 +19,13 @@
     "framework",
     "grid"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "stylelint": "stylelint 'src/*.scss'"
+  },
+  "devDependencies": {
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.4.3"
+  }
 }
