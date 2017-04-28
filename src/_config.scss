@@ -24,3 +24,23 @@ $fw-breakpoints-sizes: (
     'xl': 1200px,
     'xxl': 1600px
 ) !default;
+
+// Grid Module: Cols
+// ======================================
+// Number of grid cols to be used.
+$fw-grid-cols: 12 !default;
+
+// Grid Module: Gutter
+// ======================================
+// Size in 'px' on each side of the cols.
+$fw-grid-gutter: 15px !default;
+
+// Grid Module: fixed width's
+// ======================================
+$fw-grid-fixed-widths: (
+    's': 540px,
+    'm': 720px,
+    'l': 960px,
+    'xl': 1140px,
+    'xxl': 1540px
+) !default;

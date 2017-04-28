@@ -1,0 +1,142 @@
+//
+//--------------------------------------------------------------------------
+// Grid Module
+//--------------------------------------------------------------------------
+//
+
+// Variables
+// ======================================
+$fw-h-grid-row-alignment-horizontal: (
+    'start': flex-start,
+    'center': center,
+    'end': flex-end,
+    'around': space-around,
+    'between': space-between
+);
+
+$fw-h-grid-row-alignment-vertical: (
+    'top': flex-start,
+    'middle': center,
+    'bottom': flex-end
+);
+
+// Styles
+// ======================================
+@if map-get($fw-features-enabled, 'grid') == true {
+    .fw-o-grid {
+        margin: 0 auto;
+        max-width: 100%;
+        padding-left: $fw-grid-gutter;
+        padding-right: $fw-grid-gutter;
+        width: 100%;
+
+        @each $breakpoint, $width in $fw-grid-fixed-widths {
+            @include breakpoint($breakpoint) {
+                max-width: $width;
+            }
+        }
+
+        &#{&}--fluid {
+            max-width: none;
+        }
+
+        // Grid Rows
+        // ======================================
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -$fw-grid-gutter;
+            margin-right: -$fw-grid-gutter;
+
+            @each $identifier, $value in $fw-h-grid-row-alignment-horizontal {
+                &#{&}--#{$identifier} {
+                    justify-content: $value;
+                }
+            }
+
+            @each $breakpoint, $size in $fw-breakpoints-sizes {
+                @include breakpoint($breakpoint) {
+                    @each $identifier, $value in $fw-h-grid-row-alignment-horizontal {
+                        &#{&}--#{$identifier}\@#{$breakpoint} {
+                            justify-content: $value;
+                        }
+                    }
+                }
+            }
+
+            @each $identifier, $value in $fw-h-grid-row-alignment-vertical {
+                &#{&}--#{$identifier} {
+                    justify-content: $value;
+                }
+            }
+
+            @each $breakpoint, $size in $fw-breakpoints-sizes {
+                @include breakpoint($breakpoint) {
+                    @each $identifier, $value in $fw-h-grid-row-alignment-vertical {
+                        &#{&}--#{$identifier}\@#{$breakpoint} {
+                            justify-content: $value;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Grid Cols
+        // ======================================
+        &__col {
+            flex-basis: 100%;
+
+            &#{&}--first {
+                order: -1;
+            }
+
+            &#{&}--last {
+                order: 1;
+            }
+
+            @for $i from 1 through $fw-grid-cols {
+                &\:#{$i} {
+                    flex-basis: (($i * 100) / $fw-grid-cols) * 1%;
+                    max-width: (($i * 100) / $fw-grid-cols) * 1%;
+                }
+            }
+
+            @each $breakpoint, $value in $fw-breakpoints-sizes {
+                @for $i from 1 through $fw-grid-cols {
+                    &\:#{$i}\@#{$breakpoint} {
+                        flex-basis: (($i * 100) / $fw-grid-cols) * 1%;
+                        max-width: (($i * 100) / $fw-grid-cols) * 1%;
+                    }
+                }
+            }
+        }
+
+        // Grid Offsets
+        // ======================================
+        &__offset {
+            flex-basis: 100%;
+
+            &#{&}--first {
+                order: -1;
+            }
+
+            &#{&}--last {
+                order: 1;
+            }
+
+            @for $i from 1 through $fw-grid-cols {
+                &\:#{$i} {
+                    margin-left: (($i * 100) / $fw-grid-cols) * 1%;
+                }
+            }
+
+            @each $breakpoint, $value in $fw-breakpoints-sizes {
+                @for $i from 1 through $fw-grid-cols {
+                    &\:#{$i}\@#{$breakpoint} {
+                        margin-left: (($i * 100) / $fw-grid-cols) * 1%;
+                    }
+                }
+            }
+        }
+    }
+}
