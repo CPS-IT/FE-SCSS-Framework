@@ -1,0 +1,31 @@
+//
+//--------------------------------------------------------------------------
+// Breakpoint mixin and alias
+//--------------------------------------------------------------------------
+//
+// Breakpoint Mixin
+// ======================================
+// @param {String} breakpoint-name - quoted, lower-case breakpoint name (e.g. 'm', 'l')
+@mixin breakpoint($name) {
+    $query: map-get($fw-breakpoints-sizes, $name);
+
+    @if $query {
+        @if $fw-breakpoints-mobile == true {
+            @media screen and (min-width: $query) {
+                @content;
+            }
+        } @else {
+            @media screen and (max-width: $query) {
+                @content;
+            }
+        }
+    } @else {
+        @error '=> ERROR: BREAKPOINT NOT FOUND! <= | Your Breakpoint-Name (#{$name}) did not match any of the values in the $fw-breakpoints-sizes map.';
+    }
+}
+
+// 'bp()' alias for 'breakpoint()' mixin
+// ======================================
+@mixin bp($args...) {
+    @include breakpoint($args...);
+}

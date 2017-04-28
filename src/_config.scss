@@ -1,0 +1,26 @@
+//
+//--------------------------------------------------------------------------
+// Global framework configuration variables
+//--------------------------------------------------------------------------
+//
+
+// enabled modules
+// ======================================
+$fw-features-enabled: (
+    'grid': true // Enable the grid module.
+) !default;
+
+// Breakpoints: Mobile/Desktop first
+// ======================================
+// Set breakpoints to min- or max-width.
+$fw-breakpoints-mobile: true !default;
+
+// Breakpoints: Sizes
+// ======================================
+$fw-breakpoints-sizes: (
+    's': 576px,
+    'm': 768px,
+    'l': 992px,
+    'xl': 1200px,
+    'xxl': 1600px
+) !default;
