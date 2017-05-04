@@ -103,9 +103,11 @@ $fw-h-grid-row-alignment-vertical: (
 
             @each $breakpoint, $value in $fw-breakpoints-sizes {
                 @for $i from 1 through $fw-grid-cols {
-                    &\:#{$i}\@#{$breakpoint} {
-                        flex-basis: (($i * 100) / $fw-grid-cols) * 1%;
-                        max-width: (($i * 100) / $fw-grid-cols) * 1%;
+                    @include breakpoint($breakpoint) {
+                        &\:#{$i}\@#{$breakpoint} {
+                            flex-basis: (($i * 100) / $fw-grid-cols) * 1%;
+                            max-width: (($i * 100) / $fw-grid-cols) * 1%;
+                        }
                     }
                 }
             }
@@ -124,8 +126,10 @@ $fw-h-grid-row-alignment-vertical: (
 
             @each $breakpoint, $value in $fw-breakpoints-sizes {
                 @for $i from 1 through $fw-grid-cols {
-                    &\:#{$i}\@#{$breakpoint} {
-                        margin-left: (($i * 100) / $fw-grid-cols) * 1%;
+                    @include breakpoint($breakpoint) {
+                        &\:#{$i}\@#{$breakpoint} {
+                            margin-left: (($i * 100) / $fw-grid-cols) * 1%;
+                        }
                     }
                 }
             }
