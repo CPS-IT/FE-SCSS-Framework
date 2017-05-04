@@ -1,5 +1,5 @@
 {
-  "name": "scss-framework",
+  "name": "cps-scss-framework",
   "version": "0.0.1",
   "description": "SCSS Framework to provide frequently used functions, mixins and styles.",
   "author": "CPS-IT <info@cps-it.de> (https://www.cps-it.de)",
