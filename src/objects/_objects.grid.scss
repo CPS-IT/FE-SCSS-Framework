@@ -116,14 +116,6 @@ $fw-h-grid-row-alignment-vertical: (
         &__offset {
             flex-basis: 100%;
 
-            &#{&}--first {
-                order: -1;
-            }
-
-            &#{&}--last {
-                order: 1;
-            }
-
             @for $i from 1 through $fw-grid-cols {
                 &\:#{$i} {
                     margin-left: (($i * 100) / $fw-grid-cols) * 1%;
