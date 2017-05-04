@@ -10,11 +10,6 @@ $fw-features-enabled: (
     'grid': true // Enable the grid module.
 ) !default;
 
-// Breakpoints: Mobile/Desktop first
-// ======================================
-// Set breakpoints to min- or max-width.
-$fw-breakpoints-mobile: true !default;
-
 // Breakpoints: Sizes
 // ======================================
 $fw-breakpoints-sizes: (
