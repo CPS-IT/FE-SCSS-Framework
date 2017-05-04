@@ -28,7 +28,7 @@ After you installed the framework as described in the [Install](#install) sectio
 
 #### 2.) Use the included classes to style your website.
 
-To learn more about all the included classes check out the [Classes](#classes) documentation.
+To learn more about all the included classes check out the [Classes](#included-functions-mixins-and-classes) documentation.
 
 ### B) Include the scss file and use your own settings
 
@@ -52,7 +52,7 @@ After you created your personal configuration you need to include the `framework
 
 #### 3.) Use the included functions, mixins and classes in your project.
 
-Now you can use all the included functions, mixins and classes with your own configuration in your project. See the [Functions](#Functions), [Mixins](#mixins) and [Classes](#classes) Documentation for further details.
+Now you can use all the included functions, mixins and classes with your own configuration in your project. See the [Functions](#included-functions-mixins-and-classes), [Mixins](#included-functions-mixins-and-classes) and [Classes](#included-functions-mixins-and-classes) Documentation for further details.
 
 ## Configuration
 
