@@ -70,10 +70,9 @@ Basic Functions and Mixins used by other modules.
 	* Breakpoints [`breakpoint($query, $query-max: false)`](/docs/mixins/breakpoint.md)
 * **Classes**
 	* Grid
-		* [`.o_grid`](/docs/classes/grid.md#.o_grid)
-		* [`.o_grid__row`](/docs/classes/grid.md#.o_grid__row)
-		* [`.o_grid__col`](/docs/classes/grid.md#.o_grid__col)
-		* [`.o_grid__offset`](/docs/classes/grid.md#.o_grid__offset)
+		* [`.o_grid`](/docs/classes/grid.md#fw-o-grid)
+		* [`.o_grid__row`](/docs/classes/grid.md#fw-o_grid__row)
+		* [`.o_grid__col`](/docs/classes/grid.md#fw-o_grid__col)
 
 ## License
 
