@@ -20,11 +20,12 @@ Define each breakpoint for the project.
 
 ```scss
 $fw-breakpoints-sizes: (
-    's': 576px,
-    'm': 768px,
-    'l': 992px,
-    'xl': 1200px,
-    'xxl': 1600px
+    'xs': 500px,
+    'sm': 700px,
+    'md': 900px,
+    'lg': 1100px,
+    'xl': 1300px,
+    'xxl': 1700px
 );
 ```
 
@@ -56,10 +57,11 @@ Define the max-width's for each breakpoint.
 
 ```scss
 $fw-grid-fixed-widths: (
-    's': 540px,
-    'm': 720px,
-    'l': 960px,
-    'xl': 1140px,
-    'xxl': 1540px
+    'xs': 960px,
+    'sm': 960px,
+    'md': 960px,
+    'lg': 960px,
+    'xl': 1100px,
+    'xxl': 1200px
 );
 ```
