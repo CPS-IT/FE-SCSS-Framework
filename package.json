@@ -20,6 +20,7 @@
     "grid"
   ],
   "license": "MIT",
+  "public": true,
   "scripts": {
     "stylelint": "stylelint 'src/*.scss'",
     "build": "node-sass src/ -o dist --output-style compressed",
