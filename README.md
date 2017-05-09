@@ -76,9 +76,9 @@ Basic Functions and Mixins used by other modules.
 		* [`.o_grid__row`](/docs/classes/grid.md#o-grid__row)
 		* [`.o_grid__col`](/docs/classes/grid.md#o-grid__col)
 	* Colors
-    	* [`.u-color-bg:$name`](/docs/classes/colors.md#u-color-bg$name)
-    	* [`.u-color-bo:$name`](/docs/classes/colors.md#u-color-bo$name)
-    	* [`.u-color-c:$name`](/docs/classes/colors.md#u-color-c$name)
+    	* [`.u-color-bg:$name`](/docs/classes/colors.md#u-color-bgname)
+    	* [`.u-color-bo:$name`](/docs/classes/colors.md#u-color-boname)
+    	* [`.u-color-c:$name`](/docs/classes/colors.md#u-color-cname)
 
 ## License
 
