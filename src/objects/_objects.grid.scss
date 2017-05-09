@@ -54,10 +54,10 @@ $fw-h-grid-row-alignment-vertical: (
                 }
             }
 
-            @each $breakpoint, $size in $fw-breakpoints-sizes {
-                @include breakpoint($breakpoint) {
+            @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
+                @include breakpoint($breakpointName) {
                     @each $identifier, $value in $fw-h-grid-row-alignment-horizontal {
-                        &#{&}--#{$identifier}\@#{$breakpoint} {
+                        &#{&}--#{$identifier}\@#{$breakpointName} {
                             justify-content: $value;
                         }
                     }
@@ -70,10 +70,10 @@ $fw-h-grid-row-alignment-vertical: (
                 }
             }
 
-            @each $breakpoint, $size in $fw-breakpoints-sizes {
-                @include breakpoint($breakpoint) {
+            @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
+                @include breakpoint($breakpointName) {
                     @each $identifier, $value in $fw-h-grid-row-alignment-vertical {
-                        &#{&}--#{$identifier}\@#{$breakpoint} {
+                        &#{&}--#{$identifier}\@#{$breakpointName} {
                             align-items: $value;
                         }
                     }
@@ -90,9 +90,9 @@ $fw-h-grid-row-alignment-vertical: (
                 order: -1;
             }
 
-            @each $breakpoint, $value in $fw-breakpoints-sizes {
-                @include breakpoint($breakpoint) {
-                    &--first\@#{$breakpoint} {
+            @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
+                @include breakpoint($breakpointName) {
+                    &--first\@#{$breakpointName} {
                         order: -1;
                     }
                 }
@@ -102,9 +102,9 @@ $fw-h-grid-row-alignment-vertical: (
                 order: 1;
             }
 
-            @each $breakpoint, $value in $fw-breakpoints-sizes {
-                @include breakpoint($breakpoint) {
-                    &--last\@#{$breakpoint} {
+            @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
+                @include breakpoint($breakpointName) {
+                    &--last\@#{$breakpointName} {
                         order: 1;
                     }
                 }
@@ -118,10 +118,10 @@ $fw-h-grid-row-alignment-vertical: (
                 }
             }
 
-            @each $breakpoint, $value in $fw-breakpoints-sizes {
+            @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
                 @for $i from 1 through $fw-grid-cols {
-                    @include breakpoint($breakpoint) {
-                        &#{&}--offset\:#{$i}\@#{$breakpoint} {
+                    @include breakpoint($breakpointName) {
+                        &#{&}--offset\:#{$i}\@#{$breakpointName} {
                             margin-left: (($i * 100) / $fw-grid-cols) * 1%;
                         }
                     }
@@ -135,10 +135,10 @@ $fw-h-grid-row-alignment-vertical: (
                 }
             }
 
-            @each $breakpoint, $value in $fw-breakpoints-sizes {
+            @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
                 @for $i from 1 through $fw-grid-cols {
-                    @include breakpoint($breakpoint) {
-                        &\:#{$i}\@#{$breakpoint} {
+                    @include breakpoint($breakpointName) {
+                        &\:#{$i}\@#{$breakpointName} {
                             flex-basis: (($i * 100) / $fw-grid-cols) * 1%;
                             max-width: (($i * 100) / $fw-grid-cols) * 1%;
                         }
