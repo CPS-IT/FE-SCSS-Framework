@@ -8,7 +8,8 @@ Disable single features from this framework, to use only what you need.
 
 ```scss
 $fw-features-enabled: (
-	'grid': true
+	'grid': true,
+	'colors': true
 );
 ```
 
