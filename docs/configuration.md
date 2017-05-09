@@ -65,3 +65,26 @@ $fw-grid-fixed-widths: (
     'xxl': 1200px
 );
 ```
+
+## `$fw-colors`
+
+Define the color set for the project.
+
+### Default
+
+```scss
+$fw-colors: (
+    'black': #000000,
+    'white': #ffffff
+);
+```
+
+## `$fw-colors-responsive`
+
+Set to false to disable the responsive modifier's (e.g. `.u-color-c:black@xxl`) for color classes.
+
+### Default
+
+```scss
+$fw-colors-responsive: true;
+```

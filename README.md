@@ -66,6 +66,8 @@ The framework comes with many functions, mixins and classes, below you will find
 
 Basic Functions and Mixins used by other modules.
 
+* **Functions**
+	* Colors [`color($name, $opacity: false)`](/docs/functions/colors.md)
 * **Mixins**
 	* Breakpoints [`breakpoint($query, $query-max: false)`](/docs/mixins/breakpoint.md)
 * **Classes**
@@ -73,6 +75,10 @@ Basic Functions and Mixins used by other modules.
 		* [`.o_grid`](/docs/classes/grid.md#o-grid)
 		* [`.o_grid__row`](/docs/classes/grid.md#o-grid__row)
 		* [`.o_grid__col`](/docs/classes/grid.md#o-grid__col)
+	* Colors
+    	* [`.u-color-bg:$name`](/docs/classes/colors.md#u-color-bg$name)
+    	* [`.u-color-bo:$name`](/docs/classes/colors.md#u-color-bo$name)
+    	* [`.u-color-c:$name`](/docs/classes/colors.md#u-color-c$name)
 
 ## License
 
