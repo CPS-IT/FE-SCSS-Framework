@@ -14,21 +14,23 @@ $fw-u-color-properties: (
 
 // Styles
 // ======================================
-.u-color {
-    @each $property, $propertyName in $fw-u-color-properties {
-        &-#{$propertyName} {
-            @each $colorName, $colorValue in $fw-colors {
-                &\:#{$colorName} {
-                    #{$property}: $colorValue !important;
+@if map-get($fw-features-enabled, 'colors') == true {
+    .u-color {
+        @each $property, $propertyName in $fw-u-color-properties {
+            &-#{$propertyName} {
+                @each $colorName, $colorValue in $fw-colors {
+                    &\:#{$colorName} {
+                        #{$property}: $colorValue !important;
+                    }
                 }
-            }
 
-            @if ($fw-colors-responsive == true) {
-                @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
-                    @each $colorName, $colorValue in $fw-colors {
-                        @include breakpoint($breakpointName) {
-                            &\:#{$colorName}\@#{$breakpointName} {
-                                #{$property}: $colorValue !important;
+                @if ($fw-colors-responsive == true) {
+                    @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
+                        @each $colorName, $colorValue in $fw-colors {
+                            @include breakpoint($breakpointName) {
+                                &\:#{$colorName}\@#{$breakpointName} {
+                                    #{$property}: $colorValue !important;
+                                }
                             }
                         }
                     }
@@ -36,4 +38,5 @@ $fw-u-color-properties: (
             }
         }
     }
+
 }
