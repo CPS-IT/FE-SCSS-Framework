@@ -6,7 +6,7 @@
 
 // Variables
 // ======================================
-$fw-h-grid-row-alignment-horizontal: (
+$fw-o-grid-row-alignment-horizontal: (
     'start': flex-start,
     'center': center,
     'end': flex-end,
@@ -14,7 +14,7 @@ $fw-h-grid-row-alignment-horizontal: (
     'between': space-between
 );
 
-$fw-h-grid-row-alignment-vertical: (
+$fw-o-grid-row-alignment-vertical: (
     'top': flex-start,
     'middle': center,
     'bottom': flex-end
@@ -48,7 +48,7 @@ $fw-h-grid-row-alignment-vertical: (
             margin-left: -$fw-grid-gutter;
             margin-right: -$fw-grid-gutter;
 
-            @each $identifier, $value in $fw-h-grid-row-alignment-horizontal {
+            @each $identifier, $value in $fw-o-grid-row-alignment-horizontal {
                 &#{&}--#{$identifier} {
                     justify-content: $value;
                 }
@@ -56,7 +56,7 @@ $fw-h-grid-row-alignment-vertical: (
 
             @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
                 @include breakpoint($breakpointName) {
-                    @each $identifier, $value in $fw-h-grid-row-alignment-horizontal {
+                    @each $identifier, $value in $fw-o-grid-row-alignment-horizontal {
                         &#{&}--#{$identifier}\@#{$breakpointName} {
                             justify-content: $value;
                         }
@@ -64,7 +64,7 @@ $fw-h-grid-row-alignment-vertical: (
                 }
             }
 
-            @each $identifier, $value in $fw-h-grid-row-alignment-vertical {
+            @each $identifier, $value in $fw-o-grid-row-alignment-vertical {
                 &#{&}--#{$identifier} {
                     align-items: $value;
                 }
@@ -72,7 +72,7 @@ $fw-h-grid-row-alignment-vertical: (
 
             @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
                 @include breakpoint($breakpointName) {
-                    @each $identifier, $value in $fw-h-grid-row-alignment-vertical {
+                    @each $identifier, $value in $fw-o-grid-row-alignment-vertical {
                         &#{&}--#{$identifier}\@#{$breakpointName} {
                             align-items: $value;
                         }
