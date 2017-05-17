@@ -1,0 +1,41 @@
+{
+  "name": "cps-scss-framework",
+  "version": "0.0.1",
+  "description": "SCSS Framework to provide frequently used functions, mixins and styles.",
+  "author": "CPS-IT <info@cps-it.de> (https://www.cps-it.de)",
+  "contributors": [
+    "Kurt Gierke <mail@kurtgierke.com> (http://www.kurtgierke.com)",
+    "Nils Waldowski <me@nilswaldowski.de> (http://www.nilswaldowski.de)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CPS-IT/scss-framework"
+  },
+  "bugs": {
+    "url": "https://github.com/CPS-IT/scss-framework/issues"
+  },
+  "keywords": [
+    "scss",
+    "framework",
+    "grid"
+  ],
+  "license": "MIT",
+  "public": true,
+  "scripts": {
+    "stylelint": "stylelint 'src/*.scss'",
+    "build_compressed": "node-sass --output-style compressed src/framework.scss dist/framework.min.css",
+    "build_expanded": "node-sass --output-style expanded src/framework.scss dist/framework.css",
+    "build": "npm run build_compressed && npm run build_expanded",
+    "prebuild": "npm run stylelint"
+  },
+  "precommit": [
+    "build"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "pre-commit": "^1.2.2",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.4.3"
+  }
+}

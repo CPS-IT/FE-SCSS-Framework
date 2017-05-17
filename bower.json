@@ -1,0 +1,24 @@
+{
+  "name": "cps-scss-framework",
+  "description": "SCSS Framework to provide frequently used functions, mixins and styles.",
+  "main": "src/framework.scss",
+  "authors": [
+      "CPS-IT <info@cps-it.de> (https://www.cps-it.de)"
+    "Kurt Gierke <mail@kurtgierke.com> (http://www.kurtgierke.com)",
+    "Nils Waldowski <me@nilswaldowski.de> (http://www.nilswaldowski.de)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "scss",
+    "framework",
+    "grid"
+  ],
+  "homepage": "https://github.com/CPS-IT/scss-framework",
+  "ignore": [
+    "docs/**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
