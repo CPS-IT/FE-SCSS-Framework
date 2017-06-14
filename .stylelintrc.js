@@ -17,7 +17,7 @@ module.exports = {
         'selector-attribute-operator-space-after': 'never',
         'selector-attribute-brackets-space-inside': 'never',
         'declaration-block-trailing-semicolon': 'always',
-        'declaration-no-important': true,
+        'declaration-no-important': null,
         'declaration-colon-space-before': 'never',
         'declaration-colon-space-after': 'always',
         'property-no-vendor-prefix': true,
