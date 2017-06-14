@@ -4,10 +4,6 @@
 //--------------------------------------------------------------------------
 //
 
-// Variables
-// ======================================
-$fw-u-typo-basesize: 1rem;
-
 // Styles
 // ======================================
 @if map-get($fw-features-enabled, 'typo') == true {
@@ -15,7 +11,7 @@ $fw-u-typo-basesize: 1rem;
         &-s {
             @each $identifier, $multiplier in $fw-typo-sizes {
                 &\:#{$identifier} {
-                    font-size: ($fw-u-typo-basesize * pow($fw-typo-ratio, $multiplier)) !important;
+                    font-size: ($fw-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
                 }
             }
 
@@ -24,7 +20,7 @@ $fw-u-typo-basesize: 1rem;
                     @each $identifier, $multiplier in $fw-typo-sizes {
                         @include breakpoint($breakpointName) {
                             &\:#{$identifier}\@#{$breakpointName} {
-                                font-size: ($fw-u-typo-basesize * pow($fw-typo-ratio, $multiplier)) !important;
+                                font-size: ($fw-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
                             }
                         }
                     }
