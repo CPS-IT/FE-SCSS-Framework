@@ -8,7 +8,8 @@
 // ======================================
 $fw-features-enabled: (
     'grid': true, // Enable the grid module.
-    'colors': true // Enable the colors module.
+    'colors': true, // Enable the colors module.
+    'typo': true // Enable the typography module.
 ) !default;
 
 // Breakpoints: Sizes
@@ -53,3 +54,24 @@ $fw-colors: (
 // Colors Module: Responsive overrides
 // ======================================
 $fw-colors-responsive: true;
+
+// Typo Module: Ratio
+// ======================================
+$fw-typo-ratio: 1.2 !default;
+
+// Typo Module: Sizes
+// ======================================
+$fw-typo-sizes: (
+    'xxs': -3,
+    'xs': -2,
+    's': -1,
+    'm': 0,
+    'l': 1,
+    'xl': 2,
+    'xxl': 3,
+    'xxxl': 4
+) !default;
+
+// Typo Module: Responsive overrides
+// ======================================
+$fw-typo-responsive: true !default;
