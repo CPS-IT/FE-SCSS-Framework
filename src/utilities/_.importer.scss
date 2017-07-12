@@ -1,12 +1,9 @@
 //
 //--------------------------------------------------------------------------
-// Tools importer
+// Utilities importer
 //--------------------------------------------------------------------------
 //
-// Functions
-// ======================================
-@import 'functions/tools.functions.colors';
 
-// Mixins
+// Colors Module
 // ======================================
-@import 'mixins/tools.mixins.breakpoints';
+@import 'utilities.colors';

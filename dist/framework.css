@@ -1392,3 +1392,243 @@
     max-width: 100%;
   }
 }
+
+.u-color-bg\:black {
+  background-color: #000000 !important;
+}
+
+.u-color-bg\:white {
+  background-color: #ffffff !important;
+}
+
+@media screen and (min-width: 500px) {
+  .u-color-bg\:black\@xs {
+    background-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .u-color-bg\:white\@xs {
+    background-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .u-color-bg\:black\@sm {
+    background-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .u-color-bg\:white\@sm {
+    background-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .u-color-bg\:black\@md {
+    background-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .u-color-bg\:white\@md {
+    background-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .u-color-bg\:black\@lg {
+    background-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .u-color-bg\:white\@lg {
+    background-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .u-color-bg\:black\@xl {
+    background-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .u-color-bg\:white\@xl {
+    background-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .u-color-bg\:black\@xxl {
+    background-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .u-color-bg\:white\@xxl {
+    background-color: #ffffff !important;
+  }
+}
+
+.u-color-bo\:black {
+  border-color: #000000 !important;
+}
+
+.u-color-bo\:white {
+  border-color: #ffffff !important;
+}
+
+@media screen and (min-width: 500px) {
+  .u-color-bo\:black\@xs {
+    border-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .u-color-bo\:white\@xs {
+    border-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .u-color-bo\:black\@sm {
+    border-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .u-color-bo\:white\@sm {
+    border-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .u-color-bo\:black\@md {
+    border-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .u-color-bo\:white\@md {
+    border-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .u-color-bo\:black\@lg {
+    border-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .u-color-bo\:white\@lg {
+    border-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .u-color-bo\:black\@xl {
+    border-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .u-color-bo\:white\@xl {
+    border-color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .u-color-bo\:black\@xxl {
+    border-color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .u-color-bo\:white\@xxl {
+    border-color: #ffffff !important;
+  }
+}
+
+.u-color-c\:black {
+  color: #000000 !important;
+}
+
+.u-color-c\:white {
+  color: #ffffff !important;
+}
+
+@media screen and (min-width: 500px) {
+  .u-color-c\:black\@xs {
+    color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .u-color-c\:white\@xs {
+    color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .u-color-c\:black\@sm {
+    color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .u-color-c\:white\@sm {
+    color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .u-color-c\:black\@md {
+    color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .u-color-c\:white\@md {
+    color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .u-color-c\:black\@lg {
+    color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .u-color-c\:white\@lg {
+    color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .u-color-c\:black\@xl {
+    color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .u-color-c\:white\@xl {
+    color: #ffffff !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .u-color-c\:black\@xxl {
+    color: #000000 !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .u-color-c\:white\@xxl {
+    color: #ffffff !important;
+  }
+}
