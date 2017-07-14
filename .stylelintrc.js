@@ -10,7 +10,7 @@ module.exports = {
         'color-hex-case': 'lower',
         'color-hex-length': 'long',
         'color-named': 'never',
-        'selector-no-id': true,
+        'selector-max-id': 0,
         'selector-combinator-space-after': 'always',
         'selector-attribute-quotes': 'always',
         'selector-attribute-operator-space-before': 'never',
