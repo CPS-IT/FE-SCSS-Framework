@@ -8,7 +8,9 @@
 // ======================================
 $fw-features-enabled: (
     'grid': true, // Enable the grid module.
-    'colors': true // Enable the colors module.
+    'colors': true, // Enable the colors module.
+    'reset-css': true, // Enable the css-reset module.
+    'normalize-css': false // Enable css-normalize module.
 ) !default;
 
 // Breakpoints: Sizes
