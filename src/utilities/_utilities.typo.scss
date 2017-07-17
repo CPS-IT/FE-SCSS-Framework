@@ -4,24 +4,26 @@
 //--------------------------------------------------------------------------
 //
 
+// Variables
+// ======================================
+$fw-u-typo-base: 1rem;
+
 // Styles
 // ======================================
 @if map-get($fw-features-enabled, 'typo') == true {
     .u-typo {
-        &-s {
-            @each $identifier, $multiplier in $fw-typo-sizes {
-                &\:#{$identifier} {
-                    font-size: ($fw-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
-                }
+        @each $identifier, $multiplier in $fw-typo-sizes {
+            &\:#{$identifier} {
+                font-size: ($fw-u-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
             }
+        }
 
-            @if ($fw-typo-responsive == true) {
-                @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
-                    @each $identifier, $multiplier in $fw-typo-sizes {
-                        @include breakpoint($breakpointName) {
-                            &\:#{$identifier}\@#{$breakpointName} {
-                                font-size: ($fw-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
-                            }
+        @if ($fw-typo-responsive == true) {
+            @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
+                @each $identifier, $multiplier in $fw-typo-sizes {
+                    @include breakpoint($breakpointName) {
+                        &\:#{$identifier}\@#{$breakpointName} {
+                            font-size: ($fw-u-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
                         }
                     }
                 }
