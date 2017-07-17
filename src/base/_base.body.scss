@@ -1,0 +1,13 @@
+body {
+    @if map-get($fw-features-enabled, 'typo') == true {
+        @each $breakpoint, $size in $fw-typo-base {
+            @if $breakpoint == 'default' {
+                font-size: $size;
+            } @else {
+                @include breakpoint($breakpoint) {
+                    font-size: $size;
+                }
+            }
+        }
+    }
+}
