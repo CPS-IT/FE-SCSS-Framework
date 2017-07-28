@@ -1806,6 +1806,29 @@ body {
   }
 }
 
+.u-reset-button {
+  background: none;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  user-select: none;
+  text-align: left;
+  text-transform: inherit;
+}
+
+.u-reset-button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.u-reset-button:focus {
+  outline: none;
+}
+
 .u-typo\:xxs {
   font-size: 0.5787rem !important;
 }
