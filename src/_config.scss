@@ -9,6 +9,7 @@
 $fw-features-enabled: (
     'reset-css': true, // Enable the css-reset module.
     'normalize-css': false, // Enable css-normalize module.
+    'box-sizing': true, // Enable box-sizing: border-box
     'grid': true, // Enable the grid module.
     'colors': true, // Enable the colors module.
     'typo': true // Enable the typography module.
