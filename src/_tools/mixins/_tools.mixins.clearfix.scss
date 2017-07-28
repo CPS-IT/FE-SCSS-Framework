@@ -1,13 +1,16 @@
 //
 //--------------------------------------------------------------------------
-// Utilities importer
+// Clearfix Mixin
 //--------------------------------------------------------------------------
 //
 
-// Colors Module
+// Clearfix Mixin
 // ======================================
-@import 'utilities.accessibility';
-@import 'utilities.aspect-ratio';
-@import 'utilities.clearfix';
-@import 'utilities.colors';
-@import 'utilities.typo';
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

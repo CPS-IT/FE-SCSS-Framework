@@ -1,13 +1,15 @@
 //
 //--------------------------------------------------------------------------
-// Utilities importer
+// Clearfix Utility
 //--------------------------------------------------------------------------
 //
 
-// Colors Module
+// Styles
 // ======================================
-@import 'utilities.accessibility';
-@import 'utilities.aspect-ratio';
-@import 'utilities.clearfix';
-@import 'utilities.colors';
-@import 'utilities.typo';
+@if map-get($fw-features-enabled, 'clearfix') == true {
+
+    .u-clearfix,
+    %u-clearfix {
+        @include clearfix;
+    }
+}

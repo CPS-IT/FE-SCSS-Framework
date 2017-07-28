@@ -14,7 +14,8 @@ $fw-features-enabled: (
     'colors': true, // Enable the colors module.
     'typo': true, // Enable the typography module.
     'accessibility': true, // Enable accessibility class.
-    'aspect-ratio': true  // Enable aspect ratio module.
+    'aspect-ratio': true,  // Enable aspect ratio module.
+    'clearfix': true  // Enable clearfix module.
 ) !default;
 
 // Breakpoints: Sizes
