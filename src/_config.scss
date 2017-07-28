@@ -16,7 +16,8 @@ $fw-features-enabled: (
     'accessibility': true, // Enable accessibility class.
     'aspect-ratio': true,  // Enable aspect ratio module.
     'clearfix': true,  // Enable clearfix module.
-    'reset-button': true // Enable reset button module.
+    'reset-button': true, // Enable reset button module.
+    'text-truncate': true // Enable text truncate module.
 ) !default;
 
 // Breakpoints: Sizes

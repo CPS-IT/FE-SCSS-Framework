@@ -1829,6 +1829,12 @@ body {
   outline: none;
 }
 
+.h-text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .u-typo\:xxs {
   font-size: 0.5787rem !important;
 }
