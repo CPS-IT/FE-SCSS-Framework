@@ -1,11 +1,15 @@
 //
 //--------------------------------------------------------------------------
-// Utilities importer
+// Accessibility Utilities
 //--------------------------------------------------------------------------
 //
 
-// Colors Module
+// Styles
 // ======================================
-@import 'utilities.accessibility';
-@import 'utilities.colors';
-@import 'utilities.typo';
+@if map-get($fw-features-enabled, 'accessibility') == true {
+
+    .u-accessibility,
+    %u-accessibility {
+        @include accessibility;
+    }
+}
