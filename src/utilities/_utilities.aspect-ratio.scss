@@ -1,0 +1,25 @@
+//
+//--------------------------------------------------------------------------
+// Accessibility Utilities
+//--------------------------------------------------------------------------
+//
+
+// Styles
+// ======================================
+@if map-get($fw-features-enabled, 'aspect-ratio') == true {
+
+    .u-aspect-ratio-21x9,
+    %u-aspect-ratio-21x9 {
+        @include aspect-ratio(21, 9);
+    }
+
+    .u-aspect-ratio-16x9,
+    %u-aspect-ratio-16x9 {
+        @include aspect-ratio(16, 9);
+    }
+
+    .u-aspect-ratio-4x3,
+    %u-aspect-ratio-4x3 {
+        @include aspect-ratio(4, 3);
+    }
+}

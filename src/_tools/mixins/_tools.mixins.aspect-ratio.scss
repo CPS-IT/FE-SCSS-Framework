@@ -1,0 +1,28 @@
+//
+//--------------------------------------------------------------------------
+// Aspect Radio Mixin
+//--------------------------------------------------------------------------
+//
+
+// Aspect Radio Mixin
+// ======================================
+// @param {Number} $width - width of container (e.g. 100px)
+// @param {Number} $height - height of container (e.g. 60px)
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+
+    &:before {
+        display: block;
+        content: '';
+        width: 100%;
+        padding-top: ($height / $width) * 100%;
+    }
+
+    > * {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}

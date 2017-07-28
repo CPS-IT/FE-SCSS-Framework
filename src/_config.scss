@@ -13,7 +13,8 @@ $fw-features-enabled: (
     'grid': true, // Enable the grid module.
     'colors': true, // Enable the colors module.
     'typo': true, // Enable the typography module.
-    'accessibility': true // Enable accessibility class.
+    'accessibility': true, // Enable accessibility class.
+    'aspect-ratio': true  // Enable aspect ratio module.
 ) !default;
 
 // Breakpoints: Sizes

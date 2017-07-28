@@ -1503,6 +1503,63 @@ body {
   width: 1px !important;
 }
 
+.u-aspect-ratio-21x9 {
+  position: relative;
+}
+
+.u-aspect-ratio-21x9:before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top: 42.85714%;
+}
+
+.u-aspect-ratio-21x9 > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.u-aspect-ratio-16x9 {
+  position: relative;
+}
+
+.u-aspect-ratio-16x9:before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.u-aspect-ratio-16x9 > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.u-aspect-ratio-4x3 {
+  position: relative;
+}
+
+.u-aspect-ratio-4x3:before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top: 75%;
+}
+
+.u-aspect-ratio-4x3 > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 .u-color-bg\:black {
   background-color: #000000 !important;
 }
