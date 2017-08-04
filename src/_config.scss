@@ -91,3 +91,10 @@ $fw-typo-sizes: (
 // Typo Module: Responsive overrides
 // ======================================
 $fw-typo-responsive: true !default;
+
+// Aspect Ratio Module: Ratios
+// ======================================
+$fw-aspect-ratio-ratios: (
+    '21x9': (21, 9),
+    '16x9': (16, 9)
+) !default;
