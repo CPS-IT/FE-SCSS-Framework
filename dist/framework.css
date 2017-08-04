@@ -1810,7 +1810,7 @@ body {
   background: none;
   border: 0;
   color: inherit;
-  /* cursor: default; */
+  cursor: default;
   font: inherit;
   line-height: normal;
   overflow: visible;
