@@ -1,0 +1,16 @@
+//
+//--------------------------------------------------------------------------
+// Accessibility Utilities
+//--------------------------------------------------------------------------
+//
+
+// Styles
+// ======================================
+@if map-get($fw-features-enabled, 'aspect-ratio') == true {
+    @each $ratio, $value in $fw-aspect-ratio-ratios {
+        .u-aspect-ratio-#{$ratio},
+        %u-aspect-ratio-#{$ratio} {
+            @include aspect-ratio(nth($value, 1), nth($value, 2));
+        }
+    }
+}

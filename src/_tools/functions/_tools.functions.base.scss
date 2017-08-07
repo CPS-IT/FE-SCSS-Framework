@@ -1,0 +1,25 @@
+//
+//--------------------------------------------------------------------------
+// Base Functions
+//--------------------------------------------------------------------------
+//
+
+// Math: Pow Function
+// ======================================
+// @param {Number} $number - integer to be multiplied
+// @param {Number} $exponent - integer for how often $number should be multiplied
+@function pow($number, $exponent) {
+    $value: 1;
+
+    @if $exponent > 0 {
+        @for $i from 1 through $exponent {
+            $value: $value * $number;
+        }
+    } @else if $exponent < 0 {
+        @for $i from 1 through -$exponent {
+            $value: $value / $number;
+        }
+    }
+
+    @return $value;
+}
