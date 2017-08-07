@@ -8,19 +8,11 @@
 // ======================================
 @if map-get($fw-features-enabled, 'aspect-ratio') == true {
 
-    @function first($value) {
-        @return nth($value, 1);
-    }
-
-    @function second($value) {
-        @return nth($value, 2);
-    }
-    
     @each $ratio, $value in $fw-aspect-ratio-ratios {
 
         .u-aspect-ratio-#{$ratio},
         %u-aspect-ratio-#{$ratio} {
-            @include aspect-ratio(first($value), second($value));
+            @include aspect-ratio(nth($value, 1), nth($value, 2));
         }
     }
 }
