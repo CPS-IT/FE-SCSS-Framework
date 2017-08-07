@@ -15,7 +15,7 @@ $fw-u-typo-base: 1rem;
     %u-typo {
         @each $identifier, $multiplierLineHeight in $fw-typo-sizes {
             &\:#{$identifier} {
-                font-size: ($fw-u-typo-base * pow($fw-typo-ratio, nth($multiplierLineHeight, 1))) !important;
+                font-size: ($fw-u-typo-base * pow($fw-typo-ratio, nth($multiplierLineHeight, 1)));
                 line-height: nth($multiplierLineHeight, 2);
             }
         }
@@ -25,7 +25,7 @@ $fw-u-typo-base: 1rem;
                 @each $identifier, $multiplierLineHeight in $fw-typo-sizes {
                     @include breakpoint($breakpointName) {
                         &\:#{$identifier}\@#{$breakpointName} {
-                            font-size: ($fw-u-typo-base * pow($fw-typo-ratio, nth($multiplierLineHeight, 1))) !important;
+                            font-size: ($fw-u-typo-base * pow($fw-typo-ratio, nth($multiplierLineHeight, 1)));
                             line-height: nth($multiplierLineHeight, 2);
                         }
                     }
