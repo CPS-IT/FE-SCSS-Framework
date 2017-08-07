@@ -1,0 +1,14 @@
+//
+//--------------------------------------------------------------------------
+// Text truncate Utilities
+//--------------------------------------------------------------------------
+//
+
+// Styles
+// ======================================
+@if map-get($fw-features-enabled, 'text-truncate') == true {
+    .h-text-truncate,
+    %h-text-truncate {
+        @include text-truncate;
+    }
+}

@@ -73,6 +73,14 @@ table {
   border-spacing: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-size: 16px;
 }
@@ -1484,244 +1492,328 @@ body {
   }
 }
 
+.u-accessibility {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.u-aspect-ratio-21x9 {
+  position: relative;
+}
+
+.u-aspect-ratio-21x9:before {
+  content: '';
+  display: block;
+  padding-top: 42.85714%;
+  width: 100%;
+}
+
+.u-aspect-ratio-21x9 > * {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.u-aspect-ratio-16x9 {
+  position: relative;
+}
+
+.u-aspect-ratio-16x9:before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+  width: 100%;
+}
+
+.u-aspect-ratio-16x9 > * {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.u-clearfix:before, .u-clearfix:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
 .u-color-bg\:black {
-  background-color: #000000 !important;
+  background-color: #000000;
 }
 
 .u-color-bg\:white {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 
 @media screen and (min-width: 500px) {
   .u-color-bg\:black\@xs {
-    background-color: #000000 !important;
+    background-color: #000000;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-color-bg\:white\@xs {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-color-bg\:black\@sm {
-    background-color: #000000 !important;
+    background-color: #000000;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-color-bg\:white\@sm {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-color-bg\:black\@md {
-    background-color: #000000 !important;
+    background-color: #000000;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-color-bg\:white\@md {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-color-bg\:black\@lg {
-    background-color: #000000 !important;
+    background-color: #000000;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-color-bg\:white\@lg {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-color-bg\:black\@xl {
-    background-color: #000000 !important;
+    background-color: #000000;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-color-bg\:white\@xl {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-color-bg\:black\@xxl {
-    background-color: #000000 !important;
+    background-color: #000000;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-color-bg\:white\@xxl {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
   }
 }
 
 .u-color-bo\:black {
-  border-color: #000000 !important;
+  border-color: #000000;
 }
 
 .u-color-bo\:white {
-  border-color: #ffffff !important;
+  border-color: #ffffff;
 }
 
 @media screen and (min-width: 500px) {
   .u-color-bo\:black\@xs {
-    border-color: #000000 !important;
+    border-color: #000000;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-color-bo\:white\@xs {
-    border-color: #ffffff !important;
+    border-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-color-bo\:black\@sm {
-    border-color: #000000 !important;
+    border-color: #000000;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-color-bo\:white\@sm {
-    border-color: #ffffff !important;
+    border-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-color-bo\:black\@md {
-    border-color: #000000 !important;
+    border-color: #000000;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-color-bo\:white\@md {
-    border-color: #ffffff !important;
+    border-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-color-bo\:black\@lg {
-    border-color: #000000 !important;
+    border-color: #000000;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-color-bo\:white\@lg {
-    border-color: #ffffff !important;
+    border-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-color-bo\:black\@xl {
-    border-color: #000000 !important;
+    border-color: #000000;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-color-bo\:white\@xl {
-    border-color: #ffffff !important;
+    border-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-color-bo\:black\@xxl {
-    border-color: #000000 !important;
+    border-color: #000000;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-color-bo\:white\@xxl {
-    border-color: #ffffff !important;
+    border-color: #ffffff;
   }
 }
 
 .u-color-c\:black {
-  color: #000000 !important;
+  color: #000000;
 }
 
 .u-color-c\:white {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 500px) {
   .u-color-c\:black\@xs {
-    color: #000000 !important;
+    color: #000000;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-color-c\:white\@xs {
-    color: #ffffff !important;
+    color: #ffffff;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-color-c\:black\@sm {
-    color: #000000 !important;
+    color: #000000;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-color-c\:white\@sm {
-    color: #ffffff !important;
+    color: #ffffff;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-color-c\:black\@md {
-    color: #000000 !important;
+    color: #000000;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-color-c\:white\@md {
-    color: #ffffff !important;
+    color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-color-c\:black\@lg {
-    color: #000000 !important;
+    color: #000000;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-color-c\:white\@lg {
-    color: #ffffff !important;
+    color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-color-c\:black\@xl {
-    color: #000000 !important;
+    color: #000000;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-color-c\:white\@xl {
-    color: #ffffff !important;
+    color: #ffffff;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-color-c\:black\@xxl {
-    color: #000000 !important;
+    color: #000000;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-color-c\:white\@xxl {
-    color: #ffffff !important;
+    color: #ffffff;
   }
+}
+
+.u-reset-button {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: default;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  text-align: left;
+  text-transform: inherit;
+  user-select: none;
+}
+
+.u-reset-button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.u-reset-button:focus {
+  outline: none;
+}
+
+.h-text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .u-typo\:xxs {

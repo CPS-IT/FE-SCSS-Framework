@@ -1,0 +1,13 @@
+@if map-get($fw-features-enabled, 'box-sizing') == true {
+    html {
+        box-sizing: border-box;
+    }
+
+    * {
+        &,
+        &:before,
+        &:after {
+            box-sizing: inherit;
+        }
+    }
+}

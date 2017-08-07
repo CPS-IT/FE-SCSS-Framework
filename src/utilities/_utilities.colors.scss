@@ -20,7 +20,7 @@ $fw-u-color-properties: (
             &-#{$propertyName} {
                 @each $colorName, $colorValue in $fw-colors {
                     &\:#{$colorName} {
-                        #{$property}: $colorValue !important;
+                        #{$property}: $colorValue;
                     }
                 }
 
@@ -29,7 +29,7 @@ $fw-u-color-properties: (
                         @each $colorName, $colorValue in $fw-colors {
                             @include breakpoint($breakpointName) {
                                 &\:#{$colorName}\@#{$breakpointName} {
-                                    #{$property}: $colorValue !important;
+                                    #{$property}: $colorValue;
                                 }
                             }
                         }
@@ -38,5 +38,4 @@ $fw-u-color-properties: (
             }
         }
     }
-
 }
