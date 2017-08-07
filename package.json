@@ -28,12 +28,8 @@
     "build": "npm run build_compressed && npm run build_expanded",
     "prebuild": "npm run stylelint"
   },
-  "precommit": [
-    "build"
-  ],
   "devDependencies": {
     "node-sass": "^4.5.2",
-    "pre-commit": "^1.2.2",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
     "stylelint-order": "^0.4.3"
