@@ -22,7 +22,7 @@
   "license": "MIT",
   "public": true,
   "scripts": {
-    "stylelint": "stylelint 'src/*.scss'",
+    "stylelint": "stylelint 'src/**/*.scss'",
     "build_compressed": "node-sass --output-style compressed src/framework.scss dist/framework.min.css",
     "build_expanded": "node-sass --output-style expanded src/framework.scss dist/framework.css",
     "build": "npm run build_compressed && npm run build_expanded",
