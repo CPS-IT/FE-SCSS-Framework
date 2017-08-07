@@ -7,7 +7,6 @@
 // Styles
 // ======================================
 @if map-get($fw-features-enabled, 'clearfix') == true {
-
     .u-clearfix,
     %u-clearfix {
         @include clearfix;

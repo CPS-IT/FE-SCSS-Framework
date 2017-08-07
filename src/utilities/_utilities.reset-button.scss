@@ -7,7 +7,6 @@
 // Styles
 // ======================================
 @if map-get($fw-features-enabled, 'reset-button') == true {
-
     .u-reset-button,
     %u-reset-button {
         @include reset-button;

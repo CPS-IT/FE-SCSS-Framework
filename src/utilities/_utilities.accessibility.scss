@@ -7,7 +7,6 @@
 // Styles
 // ======================================
 @if map-get($fw-features-enabled, 'accessibility') == true {
-
     .u-accessibility,
     %u-accessibility {
         @include accessibility;

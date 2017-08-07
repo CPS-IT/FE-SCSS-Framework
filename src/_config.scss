@@ -61,7 +61,7 @@ $fw-colors: (
 
 // Colors Module: Responsive overrides
 // ======================================
-$fw-colors-responsive: true;
+$fw-colors-responsive: true !default;
 
 // Typo Module: Base font-size
 // ======================================
