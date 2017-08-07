@@ -69,17 +69,17 @@ $fw-typo-base: (
 // ======================================
 $fw-typo-ratio: 1.2 !default;
 
-// Typo Module: Sizes
+// Typo Module: Sizes (Factor, Line Height)
 // ======================================
 $fw-typo-sizes: (
-    'xxs': -3,
-    'xs': -2,
-    's': -1,
-    'm': 0,
-    'l': 1,
-    'xl': 2,
-    'xxl': 3,
-    'xxxl': 4
+    'xxs': (-3, 1.45),
+    'xs': (-2, 1.45),
+    's': (-1, 1.45),
+    'm': (0, 1.45),
+    'l': (1, 1.45),
+    'xl': (2, 1.45),
+    'xxl': (3, 1.45),
+    'xxxl': (4, 1.45)
 ) !default;
 
 // Typo Module: Responsive overrides

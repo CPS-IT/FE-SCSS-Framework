@@ -11,19 +11,22 @@ $fw-u-typo-base: 1rem;
 // Styles
 // ======================================
 @if map-get($fw-features-enabled, 'typo') == true {
-    .u-typo {
-        @each $identifier, $multiplier in $fw-typo-sizes {
+    .u-typo,
+    %u-typo {
+        @each $identifier, $multiplierLineHeight in $fw-typo-sizes {
             &\:#{$identifier} {
-                font-size: ($fw-u-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
+                font-size: ($fw-u-typo-base * pow($fw-typo-ratio, nth($multiplierLineHeight, 1))) !important;
+                line-height: nth($multiplierLineHeight, 2);
             }
         }
 
         @if ($fw-typo-responsive == true) {
             @each $breakpointName, $breakpointSize in $fw-breakpoints-sizes {
-                @each $identifier, $multiplier in $fw-typo-sizes {
+                @each $identifier, $multiplierLineHeight in $fw-typo-sizes {
                     @include breakpoint($breakpointName) {
                         &\:#{$identifier}\@#{$breakpointName} {
-                            font-size: ($fw-u-typo-base * pow($fw-typo-ratio, $multiplier)) !important;
+                            font-size: ($fw-u-typo-base * pow($fw-typo-ratio, nth($multiplierLineHeight, 1))) !important;
+                            line-height: nth($multiplierLineHeight, 2);
                         }
                     }
                 }
