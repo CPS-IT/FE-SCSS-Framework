@@ -73,6 +73,14 @@ table {
   border-spacing: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-size: 16px;
 }
@@ -1484,6 +1492,61 @@ body {
   }
 }
 
+.u-accessibility {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.u-aspect-ratio-21x9 {
+  position: relative;
+}
+
+.u-aspect-ratio-21x9:before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top: 42.85714%;
+}
+
+.u-aspect-ratio-21x9 > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.u-aspect-ratio-16x9 {
+  position: relative;
+}
+
+.u-aspect-ratio-16x9:before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.u-aspect-ratio-16x9 > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.u-clearfix:before, .u-clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .u-color-bg\:black {
   background-color: #000000 !important;
 }
@@ -1722,6 +1785,35 @@ body {
   .u-color-c\:white\@xxl {
     color: #ffffff !important;
   }
+}
+
+.u-reset-button {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: default;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  user-select: none;
+  text-align: left;
+  text-transform: inherit;
+}
+
+.u-reset-button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.u-reset-button:focus {
+  outline: none;
+}
+
+.h-text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .u-typo\:xxs {
