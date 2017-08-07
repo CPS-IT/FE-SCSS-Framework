@@ -1818,320 +1818,376 @@ body {
 
 .u-typo\:xxs {
   font-size: 0.5787rem;
+  line-height: 1.45;
 }
 
 .u-typo\:xs {
   font-size: 0.69444rem;
+  line-height: 1.45;
 }
 
 .u-typo\:s {
   font-size: 0.83333rem;
+  line-height: 1.45;
 }
 
 .u-typo\:m {
   font-size: 1rem;
+  line-height: 1.45;
 }
 
 .u-typo\:l {
   font-size: 1.2rem;
+  line-height: 1.45;
 }
 
 .u-typo\:xl {
   font-size: 1.44rem;
+  line-height: 1.45;
 }
 
 .u-typo\:xxl {
   font-size: 1.728rem;
+  line-height: 1.45;
 }
 
 .u-typo\:xxxl {
   font-size: 2.0736rem;
+  line-height: 1.45;
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:xxs\@xs {
     font-size: 0.5787rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:xs\@xs {
     font-size: 0.69444rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:s\@xs {
     font-size: 0.83333rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:m\@xs {
     font-size: 1rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:l\@xs {
     font-size: 1.2rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:xl\@xs {
     font-size: 1.44rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:xxl\@xs {
     font-size: 1.728rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 500px) {
   .u-typo\:xxxl\@xs {
     font-size: 2.0736rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:xxs\@sm {
     font-size: 0.5787rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:xs\@sm {
     font-size: 0.69444rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:s\@sm {
     font-size: 0.83333rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:m\@sm {
     font-size: 1rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:l\@sm {
     font-size: 1.2rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:xl\@sm {
     font-size: 1.44rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:xxl\@sm {
     font-size: 1.728rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 700px) {
   .u-typo\:xxxl\@sm {
     font-size: 2.0736rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:xxs\@md {
     font-size: 0.5787rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:xs\@md {
     font-size: 0.69444rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:s\@md {
     font-size: 0.83333rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:m\@md {
     font-size: 1rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:l\@md {
     font-size: 1.2rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:xl\@md {
     font-size: 1.44rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:xxl\@md {
     font-size: 1.728rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 900px) {
   .u-typo\:xxxl\@md {
     font-size: 2.0736rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:xxs\@lg {
     font-size: 0.5787rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:xs\@lg {
     font-size: 0.69444rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:s\@lg {
     font-size: 0.83333rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:m\@lg {
     font-size: 1rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:l\@lg {
     font-size: 1.2rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:xl\@lg {
     font-size: 1.44rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:xxl\@lg {
     font-size: 1.728rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .u-typo\:xxxl\@lg {
     font-size: 2.0736rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:xxs\@xl {
     font-size: 0.5787rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:xs\@xl {
     font-size: 0.69444rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:s\@xl {
     font-size: 0.83333rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:m\@xl {
     font-size: 1rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:l\@xl {
     font-size: 1.2rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:xl\@xl {
     font-size: 1.44rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:xxl\@xl {
     font-size: 1.728rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .u-typo\:xxxl\@xl {
     font-size: 2.0736rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:xxs\@xxl {
     font-size: 0.5787rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:xs\@xxl {
     font-size: 0.69444rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:s\@xxl {
     font-size: 0.83333rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:m\@xxl {
     font-size: 1rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:l\@xxl {
     font-size: 1.2rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:xl\@xxl {
     font-size: 1.44rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:xxl\@xxl {
     font-size: 1.728rem;
+    line-height: 1.45;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .u-typo\:xxxl\@xxl {
     font-size: 2.0736rem;
+    line-height: 1.45;
   }
 }
