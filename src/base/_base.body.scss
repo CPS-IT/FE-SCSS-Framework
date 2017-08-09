@@ -1,4 +1,4 @@
-body {
+html {
     @if map-get($fw-features-enabled, 'typo') == true {
         @each $breakpoint, $size in $fw-typo-base {
             @if $breakpoint == 'default' {
