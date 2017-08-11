@@ -83,8 +83,15 @@ $fw-o-grid-row-alignment-vertical: (
 
         // Grid Cols
         // ======================================
+        [class*='#{&}__col'] {
+            padding-left: $fw-grid-gutter;
+            padding-right: $fw-grid-gutter;
+        }
+
         &__col {
             flex-basis: 100%;
+            padding-left: $fw-grid-gutter;
+            padding-right: $fw-grid-gutter;
 
             &--first {
                 order: -1;
@@ -132,8 +139,6 @@ $fw-o-grid-row-alignment-vertical: (
                 &\:#{$i} {
                     flex-basis: (($i * 100) / $fw-grid-cols) * 1%;
                     max-width: (($i * 100) / $fw-grid-cols) * 1%;
-                    padding-left: $fw-grid-gutter;
-                    padding-right: $fw-grid-gutter;
                 }
             }
 
@@ -143,8 +148,6 @@ $fw-o-grid-row-alignment-vertical: (
                         &\:#{$i}\@#{$breakpointName} {
                             flex-basis: (($i * 100) / $fw-grid-cols) * 1%;
                             max-width: (($i * 100) / $fw-grid-cols) * 1%;
-                            padding-left: $fw-grid-gutter;
-                            padding-right: $fw-grid-gutter;
                         }
                     }
                 }

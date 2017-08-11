@@ -364,8 +364,15 @@ html {
   }
 }
 
+.o-grid [class*='.o-grid__col'] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .o-grid__col {
   flex-basis: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .o-grid__col--first {
@@ -931,93 +938,67 @@ html {
 .o-grid__col\:1 {
   flex-basis: 8.33333%;
   max-width: 8.33333%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:2 {
   flex-basis: 16.66667%;
   max-width: 16.66667%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:3 {
   flex-basis: 25%;
   max-width: 25%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:4 {
   flex-basis: 33.33333%;
   max-width: 33.33333%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:5 {
   flex-basis: 41.66667%;
   max-width: 41.66667%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:6 {
   flex-basis: 50%;
   max-width: 50%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:7 {
   flex-basis: 58.33333%;
   max-width: 58.33333%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:8 {
   flex-basis: 66.66667%;
   max-width: 66.66667%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:9 {
   flex-basis: 75%;
   max-width: 75%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:10 {
   flex-basis: 83.33333%;
   max-width: 83.33333%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:11 {
   flex-basis: 91.66667%;
   max-width: 91.66667%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .o-grid__col\:12 {
   flex-basis: 100%;
   max-width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 @media screen and (min-width: 500px) {
   .o-grid__col\:1\@xs {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1025,8 +1006,6 @@ html {
   .o-grid__col\:2\@xs {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1034,8 +1013,6 @@ html {
   .o-grid__col\:3\@xs {
     flex-basis: 25%;
     max-width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1043,8 +1020,6 @@ html {
   .o-grid__col\:4\@xs {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1052,8 +1027,6 @@ html {
   .o-grid__col\:5\@xs {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1061,8 +1034,6 @@ html {
   .o-grid__col\:6\@xs {
     flex-basis: 50%;
     max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1070,8 +1041,6 @@ html {
   .o-grid__col\:7\@xs {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1079,8 +1048,6 @@ html {
   .o-grid__col\:8\@xs {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1088,8 +1055,6 @@ html {
   .o-grid__col\:9\@xs {
     flex-basis: 75%;
     max-width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1097,8 +1062,6 @@ html {
   .o-grid__col\:10\@xs {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1106,8 +1069,6 @@ html {
   .o-grid__col\:11\@xs {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1115,8 +1076,6 @@ html {
   .o-grid__col\:12\@xs {
     flex-basis: 100%;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1124,8 +1083,6 @@ html {
   .o-grid__col\:1\@sm {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1133,8 +1090,6 @@ html {
   .o-grid__col\:2\@sm {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1142,8 +1097,6 @@ html {
   .o-grid__col\:3\@sm {
     flex-basis: 25%;
     max-width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1151,8 +1104,6 @@ html {
   .o-grid__col\:4\@sm {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1160,8 +1111,6 @@ html {
   .o-grid__col\:5\@sm {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1169,8 +1118,6 @@ html {
   .o-grid__col\:6\@sm {
     flex-basis: 50%;
     max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1178,8 +1125,6 @@ html {
   .o-grid__col\:7\@sm {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1187,8 +1132,6 @@ html {
   .o-grid__col\:8\@sm {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1196,8 +1139,6 @@ html {
   .o-grid__col\:9\@sm {
     flex-basis: 75%;
     max-width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1205,8 +1146,6 @@ html {
   .o-grid__col\:10\@sm {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1214,8 +1153,6 @@ html {
   .o-grid__col\:11\@sm {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1223,8 +1160,6 @@ html {
   .o-grid__col\:12\@sm {
     flex-basis: 100%;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1232,8 +1167,6 @@ html {
   .o-grid__col\:1\@md {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1241,8 +1174,6 @@ html {
   .o-grid__col\:2\@md {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1250,8 +1181,6 @@ html {
   .o-grid__col\:3\@md {
     flex-basis: 25%;
     max-width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1259,8 +1188,6 @@ html {
   .o-grid__col\:4\@md {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1268,8 +1195,6 @@ html {
   .o-grid__col\:5\@md {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1277,8 +1202,6 @@ html {
   .o-grid__col\:6\@md {
     flex-basis: 50%;
     max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1286,8 +1209,6 @@ html {
   .o-grid__col\:7\@md {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1295,8 +1216,6 @@ html {
   .o-grid__col\:8\@md {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1304,8 +1223,6 @@ html {
   .o-grid__col\:9\@md {
     flex-basis: 75%;
     max-width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1313,8 +1230,6 @@ html {
   .o-grid__col\:10\@md {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1322,8 +1237,6 @@ html {
   .o-grid__col\:11\@md {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1331,8 +1244,6 @@ html {
   .o-grid__col\:12\@md {
     flex-basis: 100%;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1340,8 +1251,6 @@ html {
   .o-grid__col\:1\@lg {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1349,8 +1258,6 @@ html {
   .o-grid__col\:2\@lg {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1358,8 +1265,6 @@ html {
   .o-grid__col\:3\@lg {
     flex-basis: 25%;
     max-width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1367,8 +1272,6 @@ html {
   .o-grid__col\:4\@lg {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1376,8 +1279,6 @@ html {
   .o-grid__col\:5\@lg {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1385,8 +1286,6 @@ html {
   .o-grid__col\:6\@lg {
     flex-basis: 50%;
     max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1394,8 +1293,6 @@ html {
   .o-grid__col\:7\@lg {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1403,8 +1300,6 @@ html {
   .o-grid__col\:8\@lg {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1412,8 +1307,6 @@ html {
   .o-grid__col\:9\@lg {
     flex-basis: 75%;
     max-width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1421,8 +1314,6 @@ html {
   .o-grid__col\:10\@lg {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1430,8 +1321,6 @@ html {
   .o-grid__col\:11\@lg {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1439,8 +1328,6 @@ html {
   .o-grid__col\:12\@lg {
     flex-basis: 100%;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1448,8 +1335,6 @@ html {
   .o-grid__col\:1\@xl {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1457,8 +1342,6 @@ html {
   .o-grid__col\:2\@xl {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1466,8 +1349,6 @@ html {
   .o-grid__col\:3\@xl {
     flex-basis: 25%;
     max-width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1475,8 +1356,6 @@ html {
   .o-grid__col\:4\@xl {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1484,8 +1363,6 @@ html {
   .o-grid__col\:5\@xl {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1493,8 +1370,6 @@ html {
   .o-grid__col\:6\@xl {
     flex-basis: 50%;
     max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1502,8 +1377,6 @@ html {
   .o-grid__col\:7\@xl {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1511,8 +1384,6 @@ html {
   .o-grid__col\:8\@xl {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1520,8 +1391,6 @@ html {
   .o-grid__col\:9\@xl {
     flex-basis: 75%;
     max-width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1529,8 +1398,6 @@ html {
   .o-grid__col\:10\@xl {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1538,8 +1405,6 @@ html {
   .o-grid__col\:11\@xl {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1547,8 +1412,6 @@ html {
   .o-grid__col\:12\@xl {
     flex-basis: 100%;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1556,8 +1419,6 @@ html {
   .o-grid__col\:1\@xxl {
     flex-basis: 8.33333%;
     max-width: 8.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1565,8 +1426,6 @@ html {
   .o-grid__col\:2\@xxl {
     flex-basis: 16.66667%;
     max-width: 16.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1574,8 +1433,6 @@ html {
   .o-grid__col\:3\@xxl {
     flex-basis: 25%;
     max-width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1583,8 +1440,6 @@ html {
   .o-grid__col\:4\@xxl {
     flex-basis: 33.33333%;
     max-width: 33.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1592,8 +1447,6 @@ html {
   .o-grid__col\:5\@xxl {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1601,8 +1454,6 @@ html {
   .o-grid__col\:6\@xxl {
     flex-basis: 50%;
     max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1610,8 +1461,6 @@ html {
   .o-grid__col\:7\@xxl {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1619,8 +1468,6 @@ html {
   .o-grid__col\:8\@xxl {
     flex-basis: 66.66667%;
     max-width: 66.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1628,8 +1475,6 @@ html {
   .o-grid__col\:9\@xxl {
     flex-basis: 75%;
     max-width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1637,8 +1482,6 @@ html {
   .o-grid__col\:10\@xxl {
     flex-basis: 83.33333%;
     max-width: 83.33333%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1646,8 +1489,6 @@ html {
   .o-grid__col\:11\@xxl {
     flex-basis: 91.66667%;
     max-width: 91.66667%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -1655,8 +1496,6 @@ html {
   .o-grid__col\:12\@xxl {
     flex-basis: 100%;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
