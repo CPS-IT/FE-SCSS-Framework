@@ -83,7 +83,7 @@ $fw-o-grid-row-alignment-vertical: (
 
         // Grid Cols
         // ======================================
-        [class*='#{&}__col'] {
+        [class*='o-grid__col\:'] {
             padding-left: $fw-grid-gutter;
             padding-right: $fw-grid-gutter;
         }
