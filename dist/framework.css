@@ -364,7 +364,7 @@ html {
   }
 }
 
-.o-grid [class*='.o-grid__col'] {
+.o-grid [class*='o-grid__col:'] {
   padding-left: 15px;
   padding-right: 15px;
 }
