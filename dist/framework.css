@@ -1813,10 +1813,6 @@ html {
   padding: 0;
 }
 
-.u-reset-button:focus {
-  outline: none;
-}
-
 .h-text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
